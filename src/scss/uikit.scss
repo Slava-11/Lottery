@@ -1,0 +1,77 @@
+.app-title-h1 {
+  @include for-little-mobile {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: var(--MainColor);
+  }
+  @include for-tablet {
+    font-size: 56px;
+  }
+}
+
+.app-title-h2 {
+  @include for-little-mobile {
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: var(--MainColor);
+  }
+  @include for-tablet {
+    font-size: 28px;
+  }
+}
+
+.app-title-h3 {
+  @include for-little-mobile {
+    font-size: 27px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: var(--MainColor);
+  }
+}
+
+.app-title-p {
+  @include for-little-mobile {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: var(--MainColor);
+  }
+}
+
+.app-input {
+  @include for-little-mobile {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  @include for-tablet {
+    font-size: 24px;
+  }
+}
+
+.app-label {
+  @include for-little-mobile {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+    color: var(--MainColor);
+  }
+  @include for-tablet {
+    font-size: 24px;
+  }
+}
+
+.app-button {
+  @include for-little-mobile {
+    display: block;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  @include for-tablet {
+    font-size: 24px;
+  }
+}

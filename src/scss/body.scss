@@ -1,0 +1,21 @@
+body {
+  background-color: var(--FirstBgColor);
+  &.active {
+    overflow: hidden;
+  }
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--FirstBgColor);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--SecondBgColor);
+  border-radius: 8px;
+  border: 3px solid var(--gray);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #252a35;
+}
